@@ -1,0 +1,194 @@
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+    .topbar {
+     background-color: #c48704;
+      color: white;
+      padding: 1rem 1rem;
+      font-size: 14px;
+    }
+    .topbar a {
+      color: white;
+    }
+    .navbar {
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-brand img {
+      height: 50px;
+    }
+    .nav-link {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .hero-section {
+        background-color: #868b89;
+       height: 400px;
+      }
+      .hero-section img {
+        max-width: 100%;
+        height: 400px;
+      }
+      .custom-line {
+        height: 4px;
+        background-color: #06406e;
+    }
+    #design{
+      margin-left: -965px;
+    background-color: #06406e;
+    color: white;
+    border-radius: inherit;
+    width: 150px;
+    font-size: x-large;
+    }
+    .hero-section a {
+      margin-left: 230px;
+    }
+    .card img{
+      width: 100%;
+      height: 300px;
+    }
+    .img {
+      width: 100%;
+      height: 200px;
+    }
+    .contact_section {
+      position: relative;
+      color: #ffffff;
+    }
+    
+    .contact_section .row {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    
+    .contact_section .contact_form-container {
+      margin-top: 35px;
+    }
+    
+    .contact_section .contact_form-container input {
+      border: none;
+      outline: none;
+      color: #fefefe;
+      height: 45px;
+      width: 100%;
+      margin: 15px 0;
+      padding-left: 15px;
+      background-color: transparent;
+      border-bottom: 1px solid #fff;
+    }
+    
+    .contact_section .contact_form-container input::-webkit-input-placeholder {
+      color: #fafafa;
+      text-transform: uppercase;
+    }
+    
+    .contact_section .contact_form-container input:-ms-input-placeholder {
+      color: #fafafa;
+      text-transform: uppercase;
+    }
+    
+    .contact_section .contact_form-container input::-ms-input-placeholder {
+      color: #fafafa;
+      text-transform: uppercase;
+    }
+    
+    .contact_section .contact_form-container input::placeholder {
+      color: #fafafa;
+      text-transform: uppercase;
+    }
+    
+    .contact_section .contact_form-container input.message_input {
+      height: 75px;
+    }
+    
+    .contact_section .contact_form-container input:focus {
+      border-bottom: 1px solid #96bb7c;
+    }
+    
+    .contact_section .contact_form-container input[type="date"]::-webkit-calendar-picker-indicator,
+    .contact_section .contact_form-container input[type="time"]::-webkit-calendar-picker-indicator {
+      color: #fff;
+      -webkit-filter: invert(1);
+              filter: invert(1);
+    }
+    
+    .contact_section .contact_form-container .btn-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-top: 25px;
+    }
+    
+    .contact_section .contact_form-container button {
+      display: inline-block;
+      padding: 10px 60px;
+      background-color: #96bb7c;
+      color: #ffffff;
+      border-radius: 5px;
+      border: 1px solid #96bb7c;
+      -webkit-transition: all .2s;
+      transition: all .2s;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    
+    .contact_section .contact_form-container button:hover {
+      background-color: transparent;
+      color: #96bb7c;
+    }
+    
+    .contact_bg_box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    
+    .contact_bg_box img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+    
+    }
+    
+    .contact_bg_box::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: -webkit-gradient(linear, left top, right top, from(rgba(24, 77, 71, 0.4)), to(rgba(24, 77, 71, 0.85)));
+      background: linear-gradient(to right, rgba(24, 77, 71, 0.4), rgba(24, 77, 71, 0.85));
+    }
+    #ftr {
+      background-color: #06406e;
+      color: white;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  
